@@ -1,15 +1,64 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'listapp/static/index.css' %}">
-    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b7c682ef25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/CSS/index.css">
     <title>Lista de Compras</title>
 </head>
 <body>
-    <p class="hola">hola mundo</p>
+  
+  <div class="page-container">
+    
+      <div class="side-bar">
+
+        <div class="close-btn">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </div>
+  
+        <div class="menu">
+          <div class="item">
+            <a href=""><i class="fa-solid fa-utensils"></i></i><span>COSTOS COMIDA</span></a>
+          </div>
+          <!-- <div class="item">
+            <a class="sub-btn"><i class="fa-solid fa-user-group"></i><span>RR.HH</span><i class="fa-solid fa-angle-up arrow"></i></a>
+            <div class="sub-menu">
+              <a href="#" class="sub-btn2"><span>CONTRATOS</span><i class="fa-solid fa-angle-up arrow2"></i></a>
+              <div class="sub-menu2">
+                <a href="#" class="sub-item"><span>CONTRATACIONES</span></a>
+                <a href="#" class="sub-item"><span>PUESTOS</span></a>
+                <a href="#" class="sub-item"><span><span>KPI</span></span></a>
+              </div>
+              <a href="" id="request-link" class="sub-item"><span>SOLICITUDES</span></a>
+              <a href="#" class="sub-item"><span>REPORTES</span></a>
+            </div>
+          </div> -->
+          <!-- <div class="item">
+            <a class="sub-btn"><i class="fa-solid fa-atom"></i><span>LOGISTICA</span><i class="fa-solid fa-angle-up arrow"></i></a>
+            <div class="sub-menu">
+              <a href="#" class="sub-item"><span>Sub Item 01</span></a>
+              <a href="#" class="sub-item"><span>Sub Item 01</span></a>
+              <a href="#" class="sub-item"><span>Sub Item 01</span></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="content-principal">
+      <div class="header-custom">
+        <div class="menu-btn" style="visibility: visible;">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="../static/JS/index.js"></script>
 </body>
 </html>
